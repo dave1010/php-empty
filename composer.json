@@ -1,0 +1,19 @@
+{
+    "name": "dave1010/php-empty",
+    "description": "Empty project to get started with PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dave Hulbert",
+            "email": "dave1010@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Foo\\" : "src/Foo/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "~4.6"
+    }
+}
