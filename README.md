@@ -9,6 +9,10 @@ Setup
 Running tests
 
     ./vendor/bin/phpunit
+    
+Running specs
+
+    ./vendor/bin/phpspec run
 
 Serving web content (from the project root)
 
@@ -21,6 +25,7 @@ Console app
 ## Structure
 
     src - classes
-    tests - test classe
+    tests - test classes
+    spec - spec classes
     web - web root
     
