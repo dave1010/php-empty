@@ -27,9 +27,9 @@ class FooTest extends \PHPUnit_Framework_TestCase {
         $dependency = $this->prophesize(\Foo\DependencyInterface::class);
         $foo = new Foo($dependency->reveal());
 
-        $foo->baz();
-
         $dependency->boolGenerator(1)->shouldBeCalled();
+
+        $foo->baz();
     }
 
     public function testSpy()
