@@ -16,6 +16,7 @@
     },
     "require": {
         "phpunit/phpunit": "~4.6",
-        "phpspec/phpspec": "~2.1"
+        "phpspec/phpspec": "~2.1",
+        "behat/behat": "3.*@stable"
     }
 }
