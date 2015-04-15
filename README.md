@@ -4,15 +4,19 @@
 
 Setup
 
-    composer install
+    composer create-project dave1010/php-empty
 
-Running tests
+## Running tests
 
     ./vendor/bin/phpunit
+
+You can also run `./tdd.sh` to watch PHP files and run PHPUnit automatically whenever there are changes
     
-Running specs
+## Running specs
 
     ./vendor/bin/phpspec run
+
+    ./vendor/bin/behat
 
 Serving web content (from the project root)
 
@@ -27,5 +31,6 @@ Console app
     src - classes
     tests - test classes
     spec - spec classes
+    features - Behat features
     web - web root
-    
+
