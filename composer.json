@@ -2,6 +2,7 @@
     "name": "dave1010/php-empty",
     "description": "Empty project to get started with PHP",
     "license": "MIT",
+    "type": "project",
     "authors": [
         {
             "name": "Dave Hulbert",
@@ -15,8 +16,13 @@
         }
     },
     "require": {
+    },
+    "require-dev": {
         "phpunit/phpunit": "~4.6",
         "phpspec/phpspec": "~2.1",
         "behat/behat": "3.*@stable"
+    },
+    "config": {
+        "preferred-install": "dist"
     }
 }
